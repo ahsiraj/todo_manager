@@ -1,0 +1,127 @@
+[ask@yoga todo_manager]$ bundle install
+Fetching gem metadata from https://rubygems.org/............
+Using rake 13.0.6
+Using concurrent-ruby 1.1.9
+Using minitest 5.14.4
+Using zeitwerk 2.4.2
+Using builder 3.2.4
+Using erubi 1.10.0
+Fetching racc 1.5.2
+Using crass 1.0.6
+Using rack 2.2.3
+Using nio4r 2.5.8
+Using websocket-extensions 0.1.5
+Using marcel 1.0.1
+Using mini_mime 1.1.1
+Fetching public_suffix 4.0.6
+Fetching bindex 0.8.1
+Fetching msgpack 1.4.2
+Installing bindex 0.8.1 with native extensions
+Installing msgpack 1.4.2 with native extensions
+Installing public_suffix 4.0.6
+Using bundler 2.2.27
+Fetching byebug 11.1.3
+Installing racc 1.5.2 with native extensions
+Installing byebug 11.1.3 with native extensions
+Fetching regexp_parser 2.1.1
+Installing regexp_parser 2.1.1
+Fetching childprocess 3.0.0
+Installing childprocess 3.0.0
+Fetching ffi 1.15.4
+Installing ffi 1.15.4 with native extensions
+Fetching rb-fsevent 0.11.0
+Installing rb-fsevent 0.11.0
+Using method_source 1.0.0
+Using pg 1.2.3
+Using thor 1.1.0
+Fetching rubyzip 2.3.2
+Installing rubyzip 2.3.2
+Fetching tilt 2.0.10
+Installing tilt 2.0.10
+Fetching semantic_range 3.0.0
+Installing semantic_range 3.0.0
+Fetching spring 3.0.0
+Installing spring 3.0.0
+Fetching turbolinks-source 5.2.0
+Installing turbolinks-source 5.2.0
+Using i18n 1.8.10
+Using tzinfo 2.0.4
+Using rack-test 1.1.0
+Using websocket-driver 0.7.5
+Using mail 2.7.1
+Fetching puma 5.4.0
+Fetching rack-mini-profiler 2.3.3
+Installing puma 5.4.0 with native extensions
+Installing rack-mini-profiler 2.3.3
+Fetching rack-proxy 0.7.0
+Installing rack-proxy 0.7.0
+Using sprockets 4.0.2
+Fetching addressable 2.8.0
+Installing addressable 2.8.0
+Using nokogiri 1.12.4 (x86_64-linux)
+Fetching selenium-webdriver 3.142.7
+Installing selenium-webdriver 3.142.7
+Fetching turbolinks 5.2.1
+Installing turbolinks 5.2.1
+Using activesupport 6.1.4.1
+Using loofah 2.12.0
+Fetching xpath 3.2.0
+Installing xpath 3.2.0
+Fetching webdrivers 4.6.1
+Installing webdrivers 4.6.1
+Using rails-dom-testing 2.0.3
+Using globalid 0.5.2
+Using activemodel 6.1.4.1
+Fetching jbuilder 2.11.2
+Installing jbuilder 2.11.2
+Using rails-html-sanitizer 1.4.2
+Fetching capybara 3.35.3
+Installing capybara 3.35.3
+Using activejob 6.1.4.1
+Using activerecord 6.1.4.1
+Using actionview 6.1.4.1
+Using actionpack 6.1.4.1
+Using actioncable 6.1.4.1
+Using activestorage 6.1.4.1
+Using actionmailer 6.1.4.1
+Using railties 6.1.4.1
+Using sprockets-rails 3.2.2
+Using actionmailbox 6.1.4.1
+Using actiontext 6.1.4.1
+Fetching web-console 4.1.0
+Installing web-console 4.1.0
+Fetching webpacker 5.4.2
+Installing webpacker 5.4.2
+Using rails 6.1.4.1
+Fetching bootsnap 1.8.1
+Installing bootsnap 1.8.1 with native extensions
+Fetching rb-inotify 0.10.1
+Fetching sassc 2.4.0
+Installing rb-inotify 0.10.1
+Fetching listen 3.7.0
+Installing sassc 2.4.0 with native extensions
+Installing listen 3.7.0
+Fetching sassc-rails 2.1.2
+Installing sassc-rails 2.1.2
+Fetching sass-rails 6.0.0
+Installing sass-rails 6.0.0
+Bundle complete! 17 Gemfile dependencies, 73 gems now installed.
+Use `bundle info [gemname]` to see where a bundled gem is installed.
+Post-install message from rubyzip:
+RubyZip 3.0 is coming!
+**********************
+
+The public API of some Rubyzip classes has been modernized to use named
+parameters for optional arguments. Please check your usage of the
+following classes:
+  * `Zip::File`
+  * `Zip::Entry`
+  * `Zip::InputStream`
+  * `Zip::OutputStream`
+
+Please ensure that your Gemfiles and .gemspecs are suitably restrictive
+to avoid an unexpected breakage when 3.0 is released (e.g. ~> 2.3.0).
+See https://github.com/rubyzip/rubyzip for details. The Changelog also
+lists other enhancements and bugfixes that have been implemented since
+version 2.3.0.
+[ask@yoga todo_manager]$ 

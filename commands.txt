@@ -1,0 +1,196 @@
+Script started on 2021-09-10 20:27:21+05:30 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="117" LINES="43"]
+]0;ask@yoga:~/lite/wd-201-ask/todo_manager[?2004h[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m rails console
+[?2004lRunning via Spring preloader in process 49962
+/usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require': [1mcannot load such file -- irb ([1;4mLoadError[m[1m)[m
+[1mDid you mean?  erb[m
+[1m               drb[m
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/loaded_features_index.rb:89:in `register'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:44:in `require'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/zeitwerk-2.4.2/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/commands/console/console_command.rb:3:in `<main>'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/zeitwerk-2.4.2/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/command/behavior.rb:44:in `block (2 levels) in lookup'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/command/behavior.rb:40:in `each'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/command/behavior.rb:40:in `block in lookup'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/command/behavior.rb:39:in `each'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/command/behavior.rb:39:in `lookup'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/command.rb:74:in `find_by_namespace'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/command.rb:46:in `invoke'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/commands.rb:18:in `<main>'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/zeitwerk-2.4.2/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ask/lite/wd-201-ask/todo_manager/bin/rails:5:in `<main>'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:60:in `load'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:60:in `load'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/activesupport-6.1.4.1/lib/active_support/fork_tracker.rb:10:in `block in fork'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/activesupport-6.1.4.1/lib/active_support/fork_tracker.rb:10:in `block in fork'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/activesupport-6.1.4.1/lib/active_support/fork_tracker.rb:8:in `fork'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/activesupport-6.1.4.1/lib/active_support/fork_tracker.rb:8:in `fork'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/activesupport-6.1.4.1/lib/active_support/fork_tracker.rb:27:in `fork'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/activesupport-6.1.4.1/lib/active_support/fork_tracker.rb:8:in `fork'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/activesupport-6.1.4.1/lib/active_support/fork_tracker.rb:27:in `fork'
+	from <internal:/usr/lib/ruby/3.0.0/rubygems/core_ext/kernel_require.rb>:85:in `require'
+	from <internal:/usr/lib/ruby/3.0.0/rubygems/core_ext/kernel_require.rb>:85:in `require'
+	from -e:1:in `<main>'
+]0;ask@yoga:~/lite/wd-201-ask/todo_manager[?2004h[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m [K[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m rails console
+[?2004lRunning via Spring preloader in process 49989
+/usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require': [1mcannot load such file -- irb ([1;4mLoadError[m[1m)[m
+[1mDid you mean?  erb[m
+[1m               drb[m
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/loaded_features_index.rb:89:in `register'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:44:in `require'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/zeitwerk-2.4.2/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/commands/console/console_command.rb:3:in `<main>'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/zeitwerk-2.4.2/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/command/behavior.rb:44:in `block (2 levels) in lookup'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/command/behavior.rb:40:in `each'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/command/behavior.rb:40:in `block in lookup'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/command/behavior.rb:39:in `each'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/command/behavior.rb:39:in `lookup'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/command.rb:74:in `find_by_namespace'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/command.rb:46:in `invoke'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/commands.rb:18:in `<main>'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/zeitwerk-2.4.2/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ask/lite/wd-201-ask/todo_manager/bin/rails:5:in `<main>'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:60:in `load'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:60:in `load'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/activesupport-6.1.4.1/lib/active_support/fork_tracker.rb:10:in `block in fork'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/activesupport-6.1.4.1/lib/active_support/fork_tracker.rb:10:in `block in fork'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/activesupport-6.1.4.1/lib/active_support/fork_tracker.rb:8:in `fork'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/activesupport-6.1.4.1/lib/active_support/fork_tracker.rb:8:in `fork'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/activesupport-6.1.4.1/lib/active_support/fork_tracker.rb:27:in `fork'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/activesupport-6.1.4.1/lib/active_support/fork_tracker.rb:8:in `fork'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/activesupport-6.1.4.1/lib/active_support/fork_tracker.rb:27:in `fork'
+	from <internal:/usr/lib/ruby/3.0.0/rubygems/core_ext/kernel_require.rb>:85:in `require'
+	from <internal:/usr/lib/ruby/3.0.0/rubygems/core_ext/kernel_require.rb>:85:in `require'
+	from -e:1:in `<main>'
+]0;ask@yoga:~/lite/wd-201-ask/todo_manager[?2004h[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m rails console
+[?2004lRunning via Spring preloader in process 50139
+/usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require': [1mcannot load such file -- irb ([1;4mLoadError[m[1m)[m
+[1mDid you mean?  erb[m
+[1m               drb[m
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/loaded_features_index.rb:89:in `register'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:44:in `require'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/zeitwerk-2.4.2/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/commands/console/console_command.rb:3:in `<main>'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/zeitwerk-2.4.2/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/command/behavior.rb:44:in `block (2 levels) in lookup'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/command/behavior.rb:40:in `each'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/command/behavior.rb:40:in `block in lookup'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/command/behavior.rb:39:in `each'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/command/behavior.rb:39:in `lookup'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/command.rb:74:in `find_by_namespace'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/command.rb:46:in `invoke'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/commands.rb:18:in `<main>'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/zeitwerk-2.4.2/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ask/lite/wd-201-ask/todo_manager/bin/rails:5:in `<main>'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:60:in `load'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:60:in `load'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/activesupport-6.1.4.1/lib/active_support/fork_tracker.rb:10:in `block in fork'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/activesupport-6.1.4.1/lib/active_support/fork_tracker.rb:10:in `block in fork'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/activesupport-6.1.4.1/lib/active_support/fork_tracker.rb:8:in `fork'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/activesupport-6.1.4.1/lib/active_support/fork_tracker.rb:8:in `fork'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/activesupport-6.1.4.1/lib/active_support/fork_tracker.rb:27:in `fork'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/activesupport-6.1.4.1/lib/active_support/fork_tracker.rb:8:in `fork'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/activesupport-6.1.4.1/lib/active_support/fork_tracker.rb:27:in `fork'
+	from <internal:/usr/lib/ruby/3.0.0/rubygems/core_ext/kernel_require.rb>:85:in `require'
+	from <internal:/usr/lib/ruby/3.0.0/rubygems/core_ext/kernel_require.rb>:85:in `require'
+	from -e:1:in `<main>'
+]0;ask@yoga:~/lite/wd-201-ask/todo_manager[?2004h[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m rails console
+[?2004lRunning via Spring preloader in process 50569
+/usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require': [1mcannot load such file -- irb ([1;4mLoadError[m[1m)[m
+[1mDid you mean?  erb[m
+[1m               drb[m
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/loaded_features_index.rb:89:in `register'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:44:in `require'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/zeitwerk-2.4.2/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/commands/console/console_command.rb:3:in `<main>'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/zeitwerk-2.4.2/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/command/behavior.rb:44:in `block (2 levels) in lookup'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/command/behavior.rb:40:in `each'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/command/behavior.rb:40:in `block in lookup'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/command/behavior.rb:39:in `each'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/command/behavior.rb:39:in `lookup'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/command.rb:74:in `find_by_namespace'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/command.rb:46:in `invoke'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/commands.rb:18:in `<main>'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/zeitwerk-2.4.2/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ask/lite/wd-201-ask/todo_manager/bin/rails:5:in `<main>'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:60:in `load'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:60:in `load'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/activesupport-6.1.4.1/lib/active_support/fork_tracker.rb:10:in `block in fork'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/activesupport-6.1.4.1/lib/active_support/fork_tracker.rb:10:in `block in fork'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/activesupport-6.1.4.1/lib/active_support/fork_tracker.rb:8:in `fork'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/activesupport-6.1.4.1/lib/active_support/fork_tracker.rb:8:in `fork'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/activesupport-6.1.4.1/lib/active_support/fork_tracker.rb:27:in `fork'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/activesupport-6.1.4.1/lib/active_support/fork_tracker.rb:8:in `fork'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/activesupport-6.1.4.1/lib/active_support/fork_tracker.rb:27:in `fork'
+	from <internal:/usr/lib/ruby/3.0.0/rubygems/core_ext/kernel_require.rb>:85:in `require'
+	from <internal:/usr/lib/ruby/3.0.0/rubygems/core_ext/kernel_require.rb>:85:in `require'
+	from -e:1:in `<main>'
+]0;ask@yoga:~/lite/wd-201-ask/todo_manager[?2004h[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m rbenv rehash
+[?2004l]0;ask@yoga:~/lite/wd-201-ask/todo_manager[?2004h[01;32m[ask@yoga[01;37m todo_manager[01;32m]$[00m rbenv rehashails console
+[?2004lRunning via Spring preloader in process 52960
+/usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require': [1mcannot load such file -- irb ([1;4mLoadError[m[1m)[m
+[1mDid you mean?  erb[m
+[1m               drb[m
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/loaded_features_index.rb:89:in `register'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:44:in `require'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/zeitwerk-2.4.2/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1/lib/rails/commands/console/console_command.rb:3:in `<main>'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `require'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:23:in `block in require_with_bootsnap_lfi'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require_with_bootsnap_lfi'
+	from /usr/lib/ruby/gems/3.0.0/gems/bootsnap-1.8.1/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:31:in `require'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/zeitwerk-2.4.2/lib/zeitwerk/kernel.rb:34:in `require'
+	from /home/ask/.local/share/gem/ruby/3.0.0/gems/railties-6.1.4.1
